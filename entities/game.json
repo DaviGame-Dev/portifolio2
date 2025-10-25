@@ -1,0 +1,43 @@
+{
+  "name": "Game",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Nome do jogo"
+    },
+    "description": {
+      "type": "string",
+      "description": "Descrição curta e envolvente do jogo"
+    },
+    "cover_image": {
+      "type": "string",
+      "description": "URL da imagem de capa"
+    },
+    "technologies": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Tecnologias utilizadas (Unity, Unreal, C#, etc)"
+    },
+    "play_link": {
+      "type": "string",
+      "description": "Link para jogar"
+    },
+    "details_link": {
+      "type": "string",
+      "description": "Link para mais detalhes"
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false,
+      "description": "Jogo em destaque"
+    }
+  },
+  "required": [
+    "title",
+    "description",
+    "cover_image"
+  ]
+}
