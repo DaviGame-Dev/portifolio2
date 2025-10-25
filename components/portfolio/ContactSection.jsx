@@ -8,6 +8,12 @@ import { Send, Mail, MessageSquare, User, CheckCircle, Sparkles } from "lucide-r
 //import { Input } from "@/components/ui/input";
 //import { Textarea } from "@/components/ui/textarea";
 
+const Button = ({ children, ...props }) => <button {...props}>{children}</button>;
+const Input = (props) => <input {...props} />;
+const Textarea = (props) => <textarea {...props} />;
+
+export default function ContactSection() {
+
 export default function ContactSection() {
   const [formData, setFormData] = useState({
     name: "",
@@ -201,4 +207,5 @@ export default function ContactSection() {
   );
 
 }
+
 
