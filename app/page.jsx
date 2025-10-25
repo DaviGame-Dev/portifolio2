@@ -1,8 +1,8 @@
 import React from "react";
-import HeroSection from "@/portfolio/componentes/portfolio/HeroSection";
-import GamesSection from "@/portfolio/componentes/portfolio/GamesSection";
-import AboutSection from "@/portfolio/componentes/portfolio/AboutSection";
-import ContactSection from "@/portfolio/componentes/portfolio/ContactSection";
+import HeroSection from "@/components/portfolio/HeroSection";
+import GamesSection from "@/components/portfolio/GamesSection";
+import AboutSection from "@/components/portfolio/AboutSection";
+import ContactSection from "@/components/portfolio/ContactSection";
 
 export default function Home() {
   return (
@@ -25,6 +25,7 @@ export default function Home() {
   );
 
 }
+
 
 
 
