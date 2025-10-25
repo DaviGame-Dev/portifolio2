@@ -116,7 +116,7 @@ export default function ContactSection() {
               {/* Name Input */}
               <div className="space-y-2">
                 <label className="flex items-center gap-2 text-sm font-medium text-gray-300">
-                  <User className="w-4 h-4 text-purple-400" />
+                  <User className="w-full bg-transparent border border-gray-600 focus:border-purple-500 text-white placeholder:text-gray-400 h-12 p-4 rounded-lg" />
                   Seu Nome
                 </label>
                 <Input
@@ -132,7 +132,7 @@ export default function ContactSection() {
               {/* Email Input */}
               <div className="space-y-2">
                 <label className="flex items-center gap-2 text-sm font-medium text-gray-300">
-                  <Mail className="w-4 h-4 text-cyan-400" />
+                  <Mail className="w-full bg-transparent border border-gray-600 focus:border-cyan-500 text-white placeholder:text-gray-400 h-12 p-4 rounded-lg" />
                   Seu Email
                 </label>
                 <Input
@@ -148,7 +148,7 @@ export default function ContactSection() {
               {/* Message Textarea */}
               <div className="space-y-2">
                 <label className="flex items-center gap-2 text-sm font-medium text-gray-300">
-                  <MessageSquare className="w-4 h-4 text-pink-400" />
+                  <MessageSquare className="w-full bg-transparent border border-gray-600 focus:border-pink-500 text-white placeholder:text-gray-400 resize-none p-4 rounded-lg" />
                   Sua Mensagem
                 </label>
                 <Textarea
