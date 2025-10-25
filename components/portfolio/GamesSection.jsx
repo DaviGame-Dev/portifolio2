@@ -1,3 +1,5 @@
+"use client"
+
 import React, { useState, useEffect } from "react";
 import { Game } from "@/entities/Game";
 import { motion } from "framer-motion";
@@ -162,4 +164,5 @@ export default function GamesSection() {
       </div>
     </section>
   );
+
 }
