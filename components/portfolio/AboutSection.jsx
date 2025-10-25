@@ -1,3 +1,5 @@
+"use client"
+
 import React from "react";
 import { motion } from "framer-motion";
 import { Code, Palette, Gamepad2, Zap, Heart, Trophy } from "lucide-react";
@@ -152,4 +154,5 @@ export default function AboutSection() {
       </div>
     </section>
   );
+
 }
