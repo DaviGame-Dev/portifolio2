@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React, { useState, useEffect } from "react";
 import { Game } from "@/entities/game.json";
@@ -166,6 +166,7 @@ export default function GamesSection() {
   );
 
 }
+
 
 
 
