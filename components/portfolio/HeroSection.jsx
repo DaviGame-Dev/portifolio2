@@ -1,3 +1,5 @@
+"use client"
+
 import React from "react";
 import { Github, Linkedin, Twitter, ExternalLink } from "lucide-react";
 import { motion } from "framer-motion";
@@ -148,4 +150,5 @@ export default function HeroSection() {
       `}</style>
     </section>
   );
+
 }
