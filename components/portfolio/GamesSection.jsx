@@ -1,7 +1,7 @@
 "use client"
 
 import React, { useState, useEffect } from "react";
-import { Game } from "@/entities/game";
+//import { Game } from "@/entities/game";
 import { motion } from "framer-motion";
 import { Play, ExternalLink, Sparkles } from "lucide-react";
 
@@ -166,4 +166,5 @@ export default function GamesSection() {
   );
 
 }
+
 
