@@ -1,3 +1,5 @@
+"use client"
+
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Send, Mail, MessageSquare, User, CheckCircle, Sparkles } from "lucide-react";
@@ -188,4 +190,5 @@ export default function ContactSection() {
       </div>
     </section>
   );
+
 }
