@@ -1,3 +1,4 @@
+import "./globals.css";
 import React from "react";
 import { Gamepad2 } from "lucide-react";
 
@@ -86,4 +87,5 @@ export default function Layout({ children }) {
       `}</style>
     </div>
   );
+
 }
