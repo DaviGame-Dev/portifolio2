@@ -13,8 +13,6 @@ const Input = (props) => <input {...props} />;
 const Textarea = (props) => <textarea {...props} />;
 
 export default function ContactSection() {
-
-export default function ContactSection() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -207,5 +205,6 @@ export default function ContactSection() {
   );
 
 }
+
 
 
